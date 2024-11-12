@@ -1,0 +1,14 @@
+[
+    {
+        "name": "salsa",
+        "quantity": 10
+    },
+    {
+        "name": "jambalaya",
+        "quantity": 30
+    },
+    {
+        "name": "hummus",
+        "quantity": 5
+    }   
+]

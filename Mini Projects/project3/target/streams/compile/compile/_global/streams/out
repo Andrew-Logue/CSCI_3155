@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala:106:99: no arguments allowed for nullary method nextDouble: ()Double[0m
+[0m[[0m[31merror[0m] [0m[0m                val newBaloon = ArcadeBaloon(global.numEntities + 1, 20, (500 + Random.nextDouble(100) + 1), (4 + Random.nextDouble(8) + 1))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala:106:133: no arguments allowed for nullary method nextDouble: ()Double[0m
+[0m[[0m[31merror[0m] [0m[0m                val newBaloon = ArcadeBaloon(global.numEntities + 1, 20, (500 + Random.nextDouble(100) + 1), (4 + Random.nextDouble(8) + 1))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala:109:124: no arguments allowed for nullary method nextDouble: ()Double[0m
+[0m[[0m[31merror[0m] [0m[0m                val newBaloon = ArcadeBaloon(global.numEntities + 1, ScreenDimensions.width - 20, (500 + Random.nextDouble(100) + 1), (4 + Random.nextDouble(8) + 1))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala:109:158: no arguments allowed for nullary method nextDouble: ()Double[0m
+[0m[[0m[31merror[0m] [0m[0m                val newBaloon = ArcadeBaloon(global.numEntities + 1, ScreenDimensions.width - 20, (500 + Random.nextDouble(100) + 1), (4 + Random.nextDouble(8) + 1))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

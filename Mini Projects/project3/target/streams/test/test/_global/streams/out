@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(edu.colorado.csci3155.project3.Automaton1Tests, org.scalatest.tools.Framework$$anon$1@3de59dfe, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(edu.colorado.csci3155.project3.ArcadeGameTests, org.scalatest.tools.Framework$$anon$1@3de59dfe, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mArcadeGameTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Move event must apply to the DartShooter entity and nothing else[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ShootDart event must apply only to the DartShooter entity [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- BaloonBurst event must apply  the ArcadeGameManager and DartShooter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- BaloonEscaped event must apply  to the ArcadeGameManager only[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Boom(x,y) event must apply to arcade baloons that are nearby[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test for handling of Tick event for ArcadeGameManager entity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test for handling BaloonEscaped/BaloonBurst Event for ArcadeGameManager entity [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test for handling Tick event for ArcadeBaloon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Testing Boom event for arcade baloon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Testing Tick event for a Dart [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAutomaton1Tests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 1 for MainEventLoop.processOneEvent[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 2 for MainEventLoop.processOneEvent[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Stop Event must remove all entities[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test five ticks in a row[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 506 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 14[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu.colorado.csci3155.project3.ArcadeGameTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu.colorado.csci3155.project3.Automaton1Tests[0m

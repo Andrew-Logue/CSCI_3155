@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:128:18: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : edu.colorado.csci3155.project2.MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[edu.colorado.csci3155.project2.Figure][0m
+[0m[[0m[31merror[0m] [0m[0m            case MyCircle(c, r) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:130:20: value - is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m                (x - r, x + r, y - r, y + r)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:130:27: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Double[0m
+[0m[[0m[31merror[0m] [0m[0m                (x - r, x + r, y - r, y + r)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:130:34: value - is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m                (x - r, x + r, y - r, y + r)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:130:41: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Double[0m
+[0m[[0m[31merror[0m] [0m[0m                (x - r, x + r, y - r, y + r)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

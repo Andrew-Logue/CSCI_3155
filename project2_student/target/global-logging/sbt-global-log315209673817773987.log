@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(b5d55b33-0910-41d5-9838-f16dde63468e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/jovyan/CSCI_3155/project2_student/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:209:36: value ++ is not a member of edu.colorado.csci3155.project2.MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val combinedObjects = this ++ c2[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:210:9: not found: value MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        MyCanvas(combinedObjects)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Apr 15, 2023, 2:57:39 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

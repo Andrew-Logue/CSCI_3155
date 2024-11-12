@@ -1,0 +1,157 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:3:14: Program is already defined as trait Program[0m
+[0m[[0m[31merror[0m] [0m[0msealed trait Program[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:5:14: Expr is already defined as trait Expr[0m
+[0m[[0m[31merror[0m] [0m[0msealed trait Expr[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:7:12: TopLevel is already defined as case class TopLevel[0m
+[0m[[0m[31merror[0m] [0m[0mcase class TopLevel(e: Expr) extends Program[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:9:12: Const is already defined as case class Const[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Const(f: Double) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:10:12: ConstBool is already defined as case class ConstBool[0m
+[0m[[0m[31merror[0m] [0m[0mcase class ConstBool(b: Boolean) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:11:12: Ident is already defined as case class Ident[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Ident(s: String) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:12:12: Plus is already defined as case class Plus[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Plus (e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:13:12: Minus is already defined as case class Minus[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Minus(e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:14:12: Mult is already defined as case class Mult[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Mult(e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:15:12: Div is already defined as case class Div[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Div (e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:16:12: Sine is already defined as case class Sine[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Sine(e: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:17:12: Cosine is already defined as case class Cosine[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Cosine(e: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:18:12: Geq is already defined as case class Geq[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Geq(e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:19:12: Gt is already defined as case class Gt[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Gt(e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:20:12: Eq is already defined as case class Eq[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Eq (e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:21:12: Neq is already defined as case class Neq[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Neq(e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:22:12: And is already defined as case class And[0m
+[0m[[0m[31merror[0m] [0m[0mcase class And(e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:23:12: Or is already defined as case class Or[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Or(e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:24:12: Not is already defined as case class Not[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Not(e1: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:28:12: HLine is already defined as case class HLine[0m
+[0m[[0m[31merror[0m] [0m[0mcase class HLine(length: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:29:12: VLine is already defined as case class VLine[0m
+[0m[[0m[31merror[0m] [0m[0mcase class VLine(length: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:30:12: Rectangle is already defined as case class Rectangle[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Rectangle(sideLength: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:31:12: Circle is already defined as case class Circle[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Circle(radius: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:32:12: EquiTriangle is already defined as case class EquiTriangle[0m
+[0m[[0m[31merror[0m] [0m[0mcase class EquiTriangle(sideLength: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:35:12: Overlay is already defined as case class Overlay[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Overlay(e1: Expr, e2: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:36:12: Rotate is already defined as case class Rotate[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Rotate(e1: Expr, e2: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:37:12: HConcat is already defined as case class HConcat[0m
+[0m[[0m[31merror[0m] [0m[0mcase class HConcat(e1: Expr, e2: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:38:12: VConcat is already defined as case class VConcat[0m
+[0m[[0m[31merror[0m] [0m[0mcase class VConcat(e1: Expr, e2: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:39:12: Translate is already defined as case class Translate[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Translate(e1: Expr, e2: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:40:12: Scale is already defined as case class Scale[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Scale(e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:41:12: ReflectX is already defined as case class ReflectX[0m
+[0m[[0m[31merror[0m] [0m[0mcase class ReflectX(e: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:42:12: ReflectY is already defined as case class ReflectY[0m
+[0m[[0m[31merror[0m] [0m[0mcase class ReflectY(e: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:45:12: Pair is already defined as case class Pair[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Pair(e1: Expr, e2: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:46:12: PairFirst is already defined as case class PairFirst[0m
+[0m[[0m[31merror[0m] [0m[0mcase class PairFirst(e: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:47:12: PairSecond is already defined as case class PairSecond[0m
+[0m[[0m[31merror[0m] [0m[0mcase class PairSecond(e: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:52:12: IfThenElse is already defined as case class IfThenElse[0m
+[0m[[0m[31merror[0m] [0m[0mcase class IfThenElse(e: Expr, e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:53:12: Let is already defined as case class Let[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Let(x: String, e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:54:12: FunDef is already defined as case class FunDef[0m
+[0m[[0m[31merror[0m] [0m[0mcase class FunDef(x: String, e: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:55:12: FunCall is already defined as case class FunCall[0m
+[0m[[0m[31merror[0m] [0m[0mcase class FunCall(f: Expr, x: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ASTGrammar.scala:56:12: LetRec is already defined as case class LetRec[0m
+[0m[[0m[31merror[0m] [0m[0mcase class LetRec(f: String, x: String, e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/Environment.scala:3:14: Environment is already defined as trait Environment[0m
+[0m[[0m[31merror[0m] [0m[0msealed trait Environment {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/Environment.scala:6:13: EmptyEnvironment is already defined as case class EmptyEnvironment[0m
+[0m[[0m[31merror[0m] [0m[0mcase object EmptyEnvironment extends Environment {[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/Environment.scala:9:12: Extend is already defined as case class Extend[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Extend(x: String, v: Value, env: Environment) extends Environment {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/Environment.scala:17:12: ExtendREC is already defined as case class ExtendREC[0m
+[0m[[0m[31merror[0m] [0m[0mcase class ExtendREC(f: String, x: String, e: Expr, env: Environment) extends Environment {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/Interpreter.scala:3:8: Interpreter is already defined as object Interpreter[0m
+[0m[[0m[31merror[0m] [0m[0mobject Interpreter {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/LettuceParser.scala:6:7: LettuceParser is already defined as class LettuceParser[0m
+[0m[[0m[31merror[0m] [0m[0mclass LettuceParser extends RegexParsers {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:9:14: Figure is already defined as trait Figure[0m
+[0m[[0m[31merror[0m] [0m[0msealed trait Figure {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:19:12: Polygonb is already defined as case class Polygonb[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Polygonb(val cList: List[(Double, Double)]) extends Figure {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:78:12: MyCircle is already defined as case class MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0mcase class MyCircle(val c: (Double, Double), val r: Double) extends Figure {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/MyCanvas.scala:120:7: MyCanvas is already defined as class MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0mclass MyCanvas (val listOfObjects: List[Figure]) {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/ParserTest.scala:13:8: ParserTest is already defined as object ParserTest[0m
+[0m[[0m[31merror[0m] [0m[0mobject ParserTest extends App {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project2_student/src/main/scala/edu/colorado/csci3155/project2/TestPrograms.scala:3:8: TestPrograms is already defined as object TestPrograms[0m
+[0m[[0m[31merror[0m] [0m[0mobject TestPrograms {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m52 errors found[0m

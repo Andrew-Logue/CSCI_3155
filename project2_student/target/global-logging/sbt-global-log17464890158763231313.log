@@ -1,0 +1,219 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(92326204-1ced-4bfc-ad77-68ff389fd7e6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCanvasTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Bounding Box with Polygon  *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  (0.0,0.0,0.0,0.0) did not equal (-1.0,3.0,-3.5,5.0) (CanvasTests.scala:38)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Tuple4(_1: 0.0 -> -1.0, _2: 0.0 -> 3.0, _3: 0.0 -> -3.5, _4: 0.0 -> 5.0)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Bounding Box with Circle  *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  (0.0,0.0,0.0,0.0) did not equal (-3.0,-1.0,2.0,4.0) (CanvasTests.scala:47)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Tuple4(_1: 0.0 -> -3.0, _2: 0.0 -> -1.0, _3: 0.0 -> 2.0, _4: 0.0 -> 4.0)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Bounding Box with two circles and one polygon *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  (-0.25,0.0,0.5,2.1) did not equal (-0.5,0,0.5,2.1) (CanvasTests.scala:56)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Tuple4(_1: -0.25 -> -0.5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Overlap of two figures *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(MyCircle((-1.0,1.0),0.5), MyCircle((1.0,2.0),0.5), Polygon(List((0.0,0.5), (-0.5,1.0), (-0.25,2.1)))) did not contain MyCircle((-1.0,1.0),2.0) (CanvasTests.scala:74)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Place Right *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(MyCircle((-1.0,1.0),0.5)) did not contain Polygon(List((-0.5,1.5), (0.5,1.5), (0.0,0.5))) (CanvasTests.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Place Right2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(Polygon(List((0.0,0.0), (0.0,1.0), (1.0,1.0), (1.0,0.0)))) did not contain Polygon(List((3.5,1.0), (4.0,0.0), (4.5,1.0), (1.0,0.0))) (CanvasTests.scala:102)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Place Right3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(MyCircle((1.5,1.0),1.0)) did not contain MyCircle((5.5,3.0),3.0) (CanvasTests.scala:113)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Place Top *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(MyCircle((-1.0,1.0),0.5)) did not contain Polygon(List((-1.5,2.5), (-0.5,2.5), (-1.0,1.5))) (CanvasTests.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Place Top2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(Polygon(List((0.0,0.0), (0.0,1.0), (1.0,1.0), (1.0,0.0)))) did not contain Polygon(List((2.5,2.0), (3.0,1.0), (3.5,2.0), (0.0,1.0))) (CanvasTests.scala:137)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Place Top3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(MyCircle((1.5,1.0),1.0)) did not contain MyCircle((3.5,5.0),3.0) (CanvasTests.scala:148)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test Rotate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test Translate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test reflection #1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test reflection #2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test scale function *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.scalatest.exceptions.TestFailedException was thrown. (CanvasTests.scala:220)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOperatorTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Simple Circle *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.OperatorTests.$anonfun$new$1(OperatorTests.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Simple Triangle *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.OperatorTests.$anonfun$new$2(OperatorTests.scala:39)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Simple Rectangle *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.OperatorTests.$anonfun$new$4(OperatorTests.scala:63)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Simple Line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.OperatorTests.$anonfun$new$6(OperatorTests.scala:87)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Overlap Operator Test *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.OperatorTests.$anonfun$new$8(OperatorTests.scala:108)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Place Right Operator Test *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.OperatorTests.$anonfun$new$13(OperatorTests.scala:141)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Place Top Test *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.OperatorTests.$anonfun$new$18(OperatorTests.scala:173)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mInterpreterTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Program 1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.InterpreterTests.$anonfun$new$1(InterpreterTests.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Program 2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.InterpreterTests.$anonfun$new$2(InterpreterTests.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Program 3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.InterpreterTests.$anonfun$new$3(InterpreterTests.scala:42)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Serpinski *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:151)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.InterpreterTests.$anonfun$new$4(InterpreterTests.scala:55)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Mandala *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.InterpreterTests.$anonfun$new$5(InterpreterTests.scala:70)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Petals *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalExpr(Interpreter.scala:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.Interpreter$.evalProgram(Interpreter.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.TestPrograms$.parseAndInterpretProgram(TestPrograms.scala:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.colorado.csci3155.project2.InterpreterTests.$anonfun$new$6(InterpreterTests.scala:84)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 343 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 28[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 24, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 24 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.colorado.csci3155.project2.InterpreterTests[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.colorado.csci3155.project2.OperatorTests[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.colorado.csci3155.project2.CanvasTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Apr 15, 2023, 4:56:01 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

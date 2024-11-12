@@ -1,0 +1,154 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:4:14: Expr is already defined as trait Expr[0m
+[0m[[0m[31merror[0m] [0m[0msealed trait Expr {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:13:12: Const is already defined as case class Const[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Const(f: Double) extends  Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:14:12: BoolConst is already defined as case class BoolConst[0m
+[0m[[0m[31merror[0m] [0m[0mcase class BoolConst(b: Boolean) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:15:12: Ident is already defined as case class Ident[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Ident(id: String) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:16:12: Plus is already defined as case class Plus[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Plus(e1: Expr, e2: Expr) extends  Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:17:12: Minus is already defined as case class Minus[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Minus(e1: Expr, e2: Expr) extends  Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:18:12: Mult is already defined as case class Mult[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Mult(e1: Expr, e2: Expr) extends  Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:19:12: Div is already defined as case class Div[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Div(e1: Expr, e2: Expr) extends  Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:20:12: Exp is already defined as case class Exp[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Exp(e:Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:21:12: Log is already defined as case class Log[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Log(e: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:22:12: Sine is already defined as case class Sine[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Sine(e: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:23:12: Cosine is already defined as case class Cosine[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Cosine(e:Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:24:12: Geq is already defined as case class Geq[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Geq(e1: Expr, e2: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:25:12: Eq is already defined as case class Eq[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Eq(e1: Expr, e2: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:26:12: And is already defined as case class And[0m
+[0m[[0m[31merror[0m] [0m[0mcase class And(e1:Expr, e2: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:27:12: Or is already defined as case class Or[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Or (e1: Expr, e2: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:28:12: Not is already defined as case class Not[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Not(e: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:29:12: IfThenElse is already defined as case class IfThenElse[0m
+[0m[[0m[31merror[0m] [0m[0mcase class IfThenElse(cond: Expr, tExpr: Expr, elseExpr: Expr) extends Expr [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:30:12: Let is already defined as case class Let[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Let(ident: String, e1: Expr, e2: Expr) extends Expr[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:33:8: Conversions is already defined as object Conversions[0m
+[0m[[0m[31merror[0m] [0m[0mobject Conversions { [0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:38:12: If is already defined as case class If[0m
+[0m[[0m[31merror[0m] [0m[0mcase class If (cond: Expr) {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:42:12: IfThen is already defined as case class IfThen[0m
+[0m[[0m[31merror[0m] [0m[0mcase class IfThen(cond: Expr, e: Expr) {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:46:12: Llet is already defined as case class Llet[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Llet (x: String) {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Expr.scala:50:12: LetBindPart is already defined as case class LetBindPart[0m
+[0m[[0m[31merror[0m] [0m[0mcase class LetBindPart(x: String, e: Expr) {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Main.scala:3:8: Main is already defined as object Main[0m
+[0m[[0m[31merror[0m] [0m[0mobject Main {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineCompiler.scala:3:8: StackMachineCompiler is already defined as object StackMachineCompiler[0m
+[0m[[0m[31merror[0m] [0m[0mobject StackMachineCompiler {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:7:14: StackMachineInstruction is already defined as trait StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0msealed trait StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:9:12: LoadEnv is already defined as case class LoadEnv[0m
+[0m[[0m[31merror[0m] [0m[0mcase class LoadEnv(s: String) extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:10:13: StoreEnv is already defined as case class StoreEnv[0m
+[0m[[0m[31merror[0m] [0m[0mcase class  StoreEnv(s: String) extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:11:13: PopEnv is already defined as case class PopEnv[0m
+[0m[[0m[31merror[0m] [0m[0mcase object PopEnv extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:13:12: PushNumI is already defined as case class PushNumI[0m
+[0m[[0m[31merror[0m] [0m[0mcase class PushNumI(f: Double) extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:14:12: PushBoolI is already defined as case class PushBoolI[0m
+[0m[[0m[31merror[0m] [0m[0mcase class PushBoolI(b: Boolean) extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:15:13: AddI is already defined as case class AddI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object AddI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:16:13: SubI is already defined as case class SubI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object SubI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:17:13: MultI is already defined as case class MultI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object MultI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:18:13: DivI is already defined as case class DivI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object DivI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:19:13: ExpI is already defined as case class ExpI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object ExpI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:20:13: LogI is already defined as case class LogI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object LogI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:21:13: SinI is already defined as case class SinI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object SinI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:22:13: CosI is already defined as case class CosI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object CosI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:23:13: GeqI is already defined as case class GeqI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object GeqI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:24:13: EqI is already defined as case class EqI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object EqI extends StackMachineInstruction [0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:25:13: NotI is already defined as case class NotI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object NotI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:26:13: PopI is already defined as case class PopI[0m
+[0m[[0m[31merror[0m] [0m[0mcase object PopI extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:28:12: CSkipI is already defined as case class CSkipI[0m
+[0m[[0m[31merror[0m] [0m[0mcase class CSkipI(numToSkip: Int) extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:29:12: SkipI is already defined as case class SkipI[0m
+[0m[[0m[31merror[0m] [0m[0mcase class SkipI(numToSkip: Int) extends StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala:31:8: StackMachineEmulator is already defined as object StackMachineEmulator[0m
+[0m[[0m[31merror[0m] [0m[0mobject StackMachineEmulator {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Value.scala:2:14: Value is already defined as trait Value[0m
+[0m[[0m[31merror[0m] [0m[0msealed trait Value  {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Value.scala:6:12: Num is already defined as case class Num[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Num(f: Double) extends Value {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Value.scala:9:12: Bool is already defined as case class Bool[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Bool(b: Boolean) extends Value  { [0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/main/scala/edu/colorado/csci3155/project1/Value.scala:12:13: Error is already defined as case class Error[0m
+[0m[[0m[31merror[0m] [0m[0mcase object Error extends Value [0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m51 errors found[0m

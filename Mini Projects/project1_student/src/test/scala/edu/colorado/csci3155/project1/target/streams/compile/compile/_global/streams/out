@@ -1,0 +1,301 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:2:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:3:8: not found: object Conversions[0m
+[0m[[0m[31merror[0m] [0m[0mimport Conversions._ [0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:5:28: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass CompilerTest extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:6:40: not found: type StackMachineInstruction[0m
+[0m[[0m[31merror[0m] [0m[0m    def printInstructionList(lst: List[StackMachineInstruction], name: String): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:7:9: not found: value info[0m
+[0m[[0m[31merror[0m] [0m[0m        info(s"Your result for CompilerTest: $name")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:8:9: not found: value info[0m
+[0m[[0m[31merror[0m] [0m[0m        info("-------------------------------")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:9:26: not found: value info[0m
+[0m[[0m[31merror[0m] [0m[0m        lst.foreach(i => info(i.toString))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:10:9: not found: value info[0m
+[0m[[0m[31merror[0m] [0m[0m        info("-------------------------------")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:13:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test (testName = "simple expression 1") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:13:11: not found: value testName[0m
+[0m[[0m[31merror[0m] [0m[0m    test (testName = "simple expression 1") {[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:15:17: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Const(1.0)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:16:19: not found: value StackMachineCompiler[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst = StackMachineCompiler.compileToStackMachineCode(e)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:21:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("simple expression 2") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:23:17: not found: value Plus[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Plus(Const(1.0), Const(2.5))[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:23:22: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Plus(Const(1.0), Const(2.5))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:23:34: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Plus(Const(1.0), Const(2.5))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:24:19: not found: value StackMachineCompiler[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst = StackMachineCompiler.compileToStackMachineCode(e)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:29:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("simple expression 3"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:31:17: not found: value Minus[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:31:23: not found: value Plus[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:31:28: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:31:40: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:31:53: not found: value Mult[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:31:58: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:31:70: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:32:19: not found: value StackMachineCompiler[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst = StackMachineCompiler.compileToStackMachineCode(e)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:37:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("simple expression 4") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:39:18: not found: value Minus[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:39:24: not found: value Plus[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:39:29: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:39:41: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:39:54: not found: value Mult[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:39:59: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:39:71: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Minus(Plus(Const(1.5), Const(2.4)), Mult(Const(2.5), Const(2.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:40:18: not found: value Plus[0m
+[0m[[0m[31merror[0m] [0m[0m        val e2 = Plus(Const(1.0), Const(2.5))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:40:23: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e2 = Plus(Const(1.0), Const(2.5))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:40:35: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e2 = Plus(Const(1.0), Const(2.5))[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:41:18: not found: value Log[0m
+[0m[[0m[31merror[0m] [0m[0m        val e3 = Log(Plus(Exp(e1), Exp(e2)))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:41:22: not found: value Plus[0m
+[0m[[0m[31merror[0m] [0m[0m        val e3 = Log(Plus(Exp(e1), Exp(e2)))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:41:27: not found: value Exp[0m
+[0m[[0m[31merror[0m] [0m[0m        val e3 = Log(Plus(Exp(e1), Exp(e2)))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:41:36: not found: value Exp[0m
+[0m[[0m[31merror[0m] [0m[0m        val e3 = Log(Plus(Exp(e1), Exp(e2)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:42:19: not found: value StackMachineCompiler[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst = StackMachineCompiler.compileToStackMachineCode(e3)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:44:25: not found: value PushNumI[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst1 = List(PushNumI(1.5), PushNumI(2.4), AddI, PushNumI(2.5), PushNumI(2.5), MultI, SubI)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:44:40: not found: value PushNumI[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst1 = List(PushNumI(1.5), PushNumI(2.4), AddI, PushNumI(2.5), PushNumI(2.5), MultI, SubI)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:44:55: not found: value AddI[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst1 = List(PushNumI(1.5), PushNumI(2.4), AddI, PushNumI(2.5), PushNumI(2.5), MultI, SubI)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:44:61: not found: value PushNumI[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst1 = List(PushNumI(1.5), PushNumI(2.4), AddI, PushNumI(2.5), PushNumI(2.5), MultI, SubI)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:44:76: not found: value PushNumI[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst1 = List(PushNumI(1.5), PushNumI(2.4), AddI, PushNumI(2.5), PushNumI(2.5), MultI, SubI)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:44:91: not found: value MultI[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst1 = List(PushNumI(1.5), PushNumI(2.4), AddI, PushNumI(2.5), PushNumI(2.5), MultI, SubI)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:44:98: not found: value SubI[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst1 = List(PushNumI(1.5), PushNumI(2.4), AddI, PushNumI(2.5), PushNumI(2.5), MultI, SubI)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:45:25: not found: value PushNumI[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst2 = List(PushNumI(1.0), PushNumI(2.5), AddI)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:45:40: not found: value PushNumI[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst2 = List(PushNumI(1.0), PushNumI(2.5), AddI)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:45:55: not found: value AddI[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst2 = List(PushNumI(1.0), PushNumI(2.5), AddI)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:47:9: not found: value assertResult[0m
+[0m[[0m[31merror[0m] [0m[0m        assertResult(expected){lst}[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:50:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("LetBinding + Ident Test 1") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:52:18: not found: value Let[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", Const(1.0), Ident("x")) //let x = 1 in x[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:52:27: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", Const(1.0), Ident("x")) //let x = 1 in x[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:52:39: not found: value Ident[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", Const(1.0), Ident("x")) //let x = 1 in x[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:53:19: not found: value StackMachineCompiler[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst = StackMachineCompiler.compileToStackMachineCode(e1)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:55:29: not found: value PushNumI[0m
+[0m[[0m[31merror[0m] [0m[0m        val expected = List(PushNumI(1.0), LoadEnv("x"), StoreEnv("x"),PopEnv)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:55:44: not found: value LoadEnv[0m
+[0m[[0m[31merror[0m] [0m[0m        val expected = List(PushNumI(1.0), LoadEnv("x"), StoreEnv("x"),PopEnv)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:55:58: not found: value StoreEnv[0m
+[0m[[0m[31merror[0m] [0m[0m        val expected = List(PushNumI(1.0), LoadEnv("x"), StoreEnv("x"),PopEnv)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:55:72: not found: value PopEnv[0m
+[0m[[0m[31merror[0m] [0m[0m        val expected = List(PushNumI(1.0), LoadEnv("x"), StoreEnv("x"),PopEnv)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:56:9: not found: value assertResult[0m
+[0m[[0m[31merror[0m] [0m[0m        assertResult(expected){lst}[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:59:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("LetBinding + Ident Test 2") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:61:18: not found: value Let[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", Const(1.5), Plus(Ident("x"), Ident("x"))) [0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:61:27: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", Const(1.5), Plus(Ident("x"), Ident("x"))) [0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:61:39: not found: value Plus[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", Const(1.5), Plus(Ident("x"), Ident("x"))) [0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:61:44: not found: value Ident[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", Const(1.5), Plus(Ident("x"), Ident("x"))) [0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:61:56: not found: value Ident[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", Const(1.5), Plus(Ident("x"), Ident("x"))) [0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:62:19: not found: value StackMachineCompiler[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst = StackMachineCompiler.compileToStackMachineCode(e1)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:67:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("LetBinding + Ident Test 3") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:69:17: not found: value Ident[0m
+[0m[[0m[31merror[0m] [0m[0m        val x = Ident("x")[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:70:17: not found: value Ident[0m
+[0m[[0m[31merror[0m] [0m[0m        val y = Ident("y")[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:71:24: not found: value Let[0m
+[0m[[0m[31merror[0m] [0m[0m        val innerLet = Let("y", Plus(x, Const(1.0)), Mult(x, y))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:71:33: not found: value Plus[0m
+[0m[[0m[31merror[0m] [0m[0m        val innerLet = Let("y", Plus(x, Const(1.0)), Mult(x, y))[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:71:41: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val innerLet = Let("y", Plus(x, Const(1.0)), Mult(x, y))[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:71:54: not found: value Mult[0m
+[0m[[0m[31merror[0m] [0m[0m        val innerLet = Let("y", Plus(x, Const(1.0)), Mult(x, y))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:72:18: not found: value Let[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", Const(1.5), innerLet) //let x = 1.5 in let y = 1 + x in x * y[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:72:27: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", Const(1.5), innerLet) //let x = 1.5 in let y = 1 + x in x * y[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:73:19: not found: value StackMachineCompiler[0m
+[0m[[0m[31merror[0m] [0m[0m        val lst = StackMachineCompiler.compileToStackMachineCode(e1)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:75:30: not found: value PushNumI[0m
+[0m[[0m[31merror[0m] [0m[0m        val expected =  List(PushNumI(1.5),[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:76:30: not found: value LoadEnv[0m
+[0m[[0m[31merror[0m] [0m[0m                             LoadEnv("x"), [0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:77:30: not found: value StoreEnv[0m
+[0m[[0m[31merror[0m] [0m[0m                             StoreEnv("x"),[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:78:30: not found: value PushNumI[0m
+[0m[[0m[31merror[0m] [0m[0m                             PushNumI(1.0),[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:79:30: not found: value AddI[0m
+[0m[[0m[31merror[0m] [0m[0m                             AddI, [0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:80:30: not found: value LoadEnv[0m
+[0m[[0m[31merror[0m] [0m[0m                             LoadEnv("y"), [0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:81:30: not found: value StoreEnv[0m
+[0m[[0m[31merror[0m] [0m[0m                             StoreEnv("x"),[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:82:30: not found: value StoreEnv[0m
+[0m[[0m[31merror[0m] [0m[0m                             StoreEnv("y"),[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:83:30: not found: value MultI[0m
+[0m[[0m[31merror[0m] [0m[0m                             MultI, [0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:84:30: not found: value PopEnv[0m
+[0m[[0m[31merror[0m] [0m[0m                             PopEnv, [0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:85:30: not found: value PopEnv[0m
+[0m[[0m[31merror[0m] [0m[0m                             PopEnv)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:86:9: not found: value assertResult[0m
+[0m[[0m[31merror[0m] [0m[0m        assertResult(expected){lst}[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:89:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test(testName = "LetBinding + Ident Test 4") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:89:10: not found: value testName[0m
+[0m[[0m[31merror[0m] [0m[0m    test(testName = "LetBinding + Ident Test 4") {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:91:17: not found: value Ident[0m
+[0m[[0m[31merror[0m] [0m[0m        val x = Ident("x")[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:92:24: not found: value Let[0m
+[0m[[0m[31merror[0m] [0m[0m        val innerLet = Let("x", Const(1.0), Plus(x, Const(1)))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:92:33: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val innerLet = Let("x", Const(1.0), Plus(x, Const(1)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:92:45: not found: value Plus[0m
+[0m[[0m[31merror[0m] [0m[0m        val innerLet = Let("x", Const(1.0), Plus(x, Const(1)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:92:53: not found: value Const[0m
+[0m[[0m[31merror[0m] [0m[0m        val innerLet = Let("x", Const(1.0), Plus(x, Const(1)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI_3155/Mini Projects/project1_student/src/test/scala/edu/colorado/csci3155/project1/CompilerTest.scala:93:18: not found: value Let[0m
+[0m[[0m[31merror[0m] [0m[0m        val e1 = Let("x", innerLet, Plus(x, Const(2)))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m100 errors found[0m
